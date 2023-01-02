@@ -97,7 +97,7 @@ const displayPopup = (details) => {
                                 <ol class="li0">Weight: </ol>
                             </li>
                             <li>
-                            ${details.abilities.map(ability => ability.ability.name).join(', ')}
+                                <ol class="li1">${details.abilities.map(ability => ability.ability.name).join(', ')}</ol>
                                 <ol class="li1">${cm}cm</ol>
                                 <ol class="li1">${kg}kg</ol>
                             </li>

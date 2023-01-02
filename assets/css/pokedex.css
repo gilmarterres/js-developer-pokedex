@@ -250,7 +250,8 @@
 }
 
 .about{
-    margin-left: 2rem;
+    margin-left: 0.5rem;
+    position: fixed;
 }
 
 .about ol{
